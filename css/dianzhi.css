@@ -1,0 +1,189 @@
+@import "base.css";
+
+header {
+    width: 3.75rem;
+    height: 1.6rem;
+    background: #336699;
+}
+
+.wrapper, .wrapper1 {
+    width: 2.53rem;
+    height: 1.6rem;
+    float: left;
+}
+
+.wrapper1 {
+    width: 1.22rem;
+    position: relative;
+}
+
+.logo-box {
+    width: 1.64rem;
+    height: 0.44rem;
+    margin: 0.1rem;
+    margin-left: 0.05rem;
+}
+
+.tab-bar {
+    width: 2.48rem;
+    height: 0.96rem;
+    margin-left: 0.05rem;
+}
+
+.tab-menu li {
+    float: left;
+    width: 0.79rem;
+    height: 0.32rem;
+}
+
+.button-a a,.button-b a,.button-c a,.button-d a,.button-e a,.button-f a,.button-g a{
+    background: #CC9966;
+    color: #fff;
+    font-size: 0.14rem;
+    padding: 0 0.1rem;
+    margin: 0.02rem 0.03rem 0 0;
+    line-height: 0.3rem;
+    height: 0.3rem;
+    display: inline-block;
+}
+.button-b a{
+    background: #CC6666;
+}
+.button-c a{
+    background: #999966;
+}
+.button-d a{
+    background: #f9f9f9;
+    color: #000;
+}
+.button-e a{
+    background: #ee6666;
+}
+.button-f a{
+    background: #669966;
+}
+.button-g a{
+    background: #CC6699;
+}
+.nv{
+    width: 1.22rem;
+    height: 0.6rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.nv .drop{
+    padding: 0 0.1rem;
+    margin: 0 0.05rem;
+    font-size: 0.14rem;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+.drop span{
+    position: absolute;
+    top: -0.05rem;
+    right: 0rem;
+    height: 0.3rem;
+    width: 0.13rem;
+    display: inline-block;
+    background: url(../img/dz01.png) no-repeat 0 0;
+}
+.sou{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.14rem;
+    padding: 0 0.1rem;
+    margin:0.1rem 0 0 0;
+    float: right;
+    color: #fff;
+}
+nav {
+    width: 3.65rem;
+    height: 5.01rem;
+    margin: 0 auto;
+
+    margin: 0.05rem;
+}
+.max-box{
+    width: 3.65rem;
+    height: 0.72rem;
+    margin: 0.15rem 0;
+    border-bottom: 0.01rem dashed #A0AFD4;
+}
+
+.title {
+    width: 1.31rem;
+    height: 0.24rem;
+    float: left;
+}
+
+nav img {
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+
+span {
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+
+.br-padding20 {
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+}
+
+nav a {
+    float: left;
+    font-size: .16rem;
+    color: blue;
+    float: left;
+}
+nav .sp{
+    margin: 0.03rem;
+    height: 0.15rem;
+    width: 0.15rem;
+    line-height: 0.12rem;
+    display: block;
+    background: transparent url(../img/ap04.png) no-repeat;
+}
+.rightbox{
+    font-size: 0.14rem;
+    color: #000;
+    float: right;
+    margin: 0.2rem 0;
+}
+.error-bar{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem 0;
+    font-size: 0.16rem;
+    color: red;
+}
+.tips-bar{
+    width: 3.65rem;
+    height: 3.54rem;
+    margin: 0.2rem 0;
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.16rem;
+}
+.tips-bar ul{
+    padding: 0 0 0 0.24rem;
+}
+
+.tips-bar #yi li{
+    list-style: disc;
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.18rem;
+}
+.tips-bar #er li{
+    list-style: circle;
+}
